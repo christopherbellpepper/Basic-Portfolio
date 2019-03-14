@@ -1,52 +1,56 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctype html>
+<html lang="en-us">
 
-    <head>
-        <meta charset="UTF-8">
-        <title>Christopher Bell</title>
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    </head>
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | C. Bell</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
 
-    <body>
-        <header>
-            <div id="top-box">
-                <div id="top-words">
-                    <div class="clearfix">
-                        <section id="bell">
-                            <h1>Christopher Bell</h1>
-                        </section>
-                        
-                        <nav>
-                            <a href="index.html">about |</a>
-                            <a href="portfolio.html">portfolio |</a>
-                            <a href="contact.html">contact</a>
-                        </nav>
-                    </div>
-                </div>  
-            </div>
-        </header>
-    
-        <main id="main-body">
-          
-            <div id="main-box">
-                <section id="about">
-                    <h1>Contact</h1>
-                </section>
-                    
-                <hr>
-        
-                <article>
-                    <p>Name</p>
-                    <p>Email</p>
-                    <p>Message</p>
-                </article>
-            </div>    
-        </main>
+<body>
 
-        <footer>
-            <div id="footer"></div>
-        </footer>
-        
+  <header id="masthead">
+    <div class="container">
+      <a href="index.html" id="logo">Chris Bell</a>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-    </body>
+  <div id="main-container" class="container">
+    <section class="main-section">
+      <h1>Contact</h1>
+
+      <form id="contact-form">
+        <ul>
+          <li>
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="John Smith" required="required">
+          </li>
+          <li>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com" required="required">
+          </li>
+          <li>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required="required"></textarea>
+          </li>
+        </ul>
+        <input type="submit">
+      </form>
+
+    </section>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      Copyright &copy; 2019. | Chris Bell
+    </div>
+  </footer>
+</body>
+
 </html>
