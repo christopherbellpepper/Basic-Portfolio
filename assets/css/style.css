@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #777777;
-  background: url("../images/concrete_seamless.png");
+  background: url("../images/photo-1475139441338-693e7dbe20b6.jpeg");
 }
 
 * {
@@ -177,6 +177,13 @@ h3, h2 {
 }
 
 /* contact page */
+#linkedIn {
+  width: 50px;
+}
+
+#gitHub {
+  width: 50px;
+}
 
 #contact-form ul {
   margin-bottom: 20px;
