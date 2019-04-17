@@ -122,6 +122,8 @@ h3, h2 {
 #main-container {
   padding-top: 130px;
   min-height: calc(100vh - 70px);
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .main-section {
